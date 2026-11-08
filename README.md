@@ -6,7 +6,7 @@ Aplicación web estática para añadir, completar, reabrir y eliminar tareas. De
 
 - [Repositorio](https://github.com/angel568/ci-cd-web-demo)
 - [Ejecuciones del pipeline](https://github.com/angel568/ci-cd-web-demo/actions)
-- URL prevista del sitio tras activar Pages y completar el despliegue: https://angel568.github.io/ci-cd-web-demo/
+- Sitio publicado y verificado: https://angel568.github.io/ci-cd-web-demo/
 
 ## Requisitos y ejecución
 

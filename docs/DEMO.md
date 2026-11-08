@@ -10,8 +10,8 @@
 ## Evidencias para la entrega
 
 - URL del repositorio: https://github.com/angel568/ci-cd-web-demo
-- URL exacta de ejecución remota exitosa: registrar después de ejecutarla.
-- URL del sitio publicado: registrar después de verificarlo.
+- Ejecución remota exitosa: https://github.com/angel568/ci-cd-web-demo/actions/runs/42510562301 (Success, 32 s).
+- Sitio publicado y verificado en Chrome: https://angel568.github.io/ci-cd-web-demo/.
 - Captura del resumen con los tres jobs correctos.
 - Captura del log con cobertura y del sitio funcionando.
 - Opcional: enlace de la PR fallida y su corrección.

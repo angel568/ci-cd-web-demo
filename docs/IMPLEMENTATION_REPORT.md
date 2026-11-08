@@ -30,11 +30,15 @@ Entorno: Windows, Node.js v24.22.1. Se ejecutó el comando completo de cobertura
 
 Repositorio creado por el usuario: https://github.com/angel568/ci-cd-web-demo.
 
-La validación remota y la publicación requieren consultar una ejecución real y el sitio. Este apartado se actualizará con evidencia si se completa durante la implementación. No se afirma un despliegue remoto con base únicamente en las pruebas locales.
+Validación remota completada: [ejecución #1](https://github.com/angel568/ci-cd-web-demo/actions/runs/42510562301), commit `ec05189a8b76e001bc4c1d823ed22a7bc38268a7`. Resultado Success, duración total 32 segundos: pruebas 6 s, build 7 s y deploy 11 s. Pages se configuró con GitHub Actions como fuente.
+
+Sitio verificado: https://angel568.github.io/ci-cd-web-demo/. En Chrome se comprobaron entrada vacía, creación, completar, reabrir y eliminar una tarea, con actualización correcta del contador. Se guardaron capturas como evidencia.
+
+GitHub mostró avisos de migración de ubuntu-latest y de runtime Node 20 de acciones de Pages, ejecutadas bajo Node 24; no impidieron la publicación. Se usan las versiones mayores indicadas en la guía oficial de Pages consultada.
 
 ## Limitaciones y mejoras
 
-La plantilla de la consigna no se adjuntó y la imagen del aula no pudo recuperarse. La solución sigue los requisitos textuales. La integración DOM usa un adaptador mínimo; queda una comprobación manual en navegador y pueden añadirse pruebas de navegador automatizadas en una siguiente versión. La cobertura de scripts de infraestructura no se mide por el umbral de `src/`. Añadir persistencia, filtrado y fijación de acciones por SHA serían mejoras futuras.
+La plantilla de la consigna no se adjuntó y la imagen del aula no pudo recuperarse. La solución sigue los requisitos textuales. La integración DOM usa un adaptador mínimo; se verificó manualmente el flujo en Chrome y pueden añadirse pruebas de navegador automatizadas en una siguiente versión. La cobertura de scripts de infraestructura no se mide por el umbral de `src/`. Añadir persistencia, filtrado y fijación de acciones por SHA serían mejoras futuras.
 
 ## Relación con la evaluación
 
