@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gestor de tareas con integración y despliegue continuos.">
+  <title>Mi día · CI/CD Demo</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main id="app">
+    <header><span class="eyebrow">GITHUB ACTIONS / DEMO</span><h1>Un paso a la vez.</h1><p>Organiza tu día. Cada pequeño avance cuenta.</p></header>
+    <section aria-labelledby="tasks-heading">
+      <h2 id="tasks-heading">Mis tareas</h2>
+      <form novalidate>
+        <label for="title">¿Qué quieres hacer hoy?</label>
+        <div class="entry"><input id="title" name="title" maxlength="120" placeholder="Preparar mi demo de CI/CD" autocomplete="off"><button type="submit">Añadir tarea</button></div>
+        <p id="error" role="alert"></p>
+      </form>
+      <p id="status" role="status"></p>
+      <ul id="tasks" aria-label="Lista de tareas"></ul>
+      <p class="hint">Pulsa una tarea para marcarla como completada. Las tareas se reinician al recargar.</p>
+    </section>
+    <footer>Desarrolla → Prueba → Construye → Despliega</footer>
+  </main>
+  <script type="module">import { mountApp } from './src/app.js'; mountApp(document.querySelector('#app'));</script>
+</body>
+</html>

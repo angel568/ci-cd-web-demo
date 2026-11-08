@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-web-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage --test-coverage-include=src/**/*.js --test-coverage-lines=90 --test-coverage-branches=90 --test-coverage-functions=90",
+    "build": "node scripts/build.js",
+    "start": "node scripts/serve.js"
+  }
+}
